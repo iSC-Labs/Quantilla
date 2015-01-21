@@ -1,4 +1,4 @@
-# AttilaRisk
+# Quantilla
 Risk/Analytics Platform for Stevens Student Investment Management Fund
 
 ##Purpose
