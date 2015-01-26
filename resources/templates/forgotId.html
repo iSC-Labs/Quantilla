@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home Page, Login">
+    <meta name="author" content="Gerardo Santacruz">
+    <link rel="icon" href="../public/img/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Cover page style from bootstrap site -->
+    <link href="../public/css/cover.css" rel="stylesheet">
+
+    <title>Quantilla Home</title>
+</head>
+
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+            <div id="navhead" class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand"><a href="home.html">Quantilla&trade;</a></h3>
+                    <nav>
+                        <ul id="navmenu" class="nav masthead-nav">
+                            <li class="active"><a href="#">Risk Reports</a></li>
+                            <li><a href="#">Portfolio Analysis</a></li>
+                            <li><a href="#">Strats Simulation</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <form action="/sendId" method="post">
+                    <h2 class="cover-heading">No problem, We'll send it your way.</h2><br>
+                    <div class="form-group col-lg-6">
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    </div>
+                    <button class="btn btn-lg btn-primary" type="submit" value="getId">Submit Email</button>
+                </form>
+            </div>
+
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>&copy; 2015 From Stevens SMIF With Love~</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
