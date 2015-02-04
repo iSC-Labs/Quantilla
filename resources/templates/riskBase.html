@@ -8,7 +8,7 @@
     <meta name="author" content="Gerardo Santacruz">
     <link rel="icon" href="../public/img/favicon.ico">
 
-    <title>Quantilla Dashboard</title>
+    <title>Quantilla Home</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../public/css/bootstrap.min.css" rel="stylesheet">
@@ -28,16 +28,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">Quantilla&trade;</a>
+            <a class="navbar-brand" href="#">Quantilla&trade;</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/dashboard">Dashboard</a></li>
-                <li><a href="/risk">Risk</a></li>
-                <li><a href="/portfolio">Portfolios</a></li>
-                <li><a href="/strats">Strategies</a></li>
-                <li><a href="/profile">User Settings</a></li>
-                <li><a href="/logout">Logout</a></li>
+                <li><a action="/Dashboard" methods="get">Dashboard</a></li>
+                <li><a action="/Risk" methods="get">Risk</a></li>
+                <li><a action="/Portfolio" methods="get">Portfolio</a></li>
+                <li><a action="/Strats" methods="get">Strategies</a></li>
+                <li><a action="/profile" methods="get">User Settings</a></li>
+                <li><a action="/logout" methods="get">Logout</a></li>
             </ul>
             <form class="navbar-form navbar-right">
                 <input type="text" class="form-control" placeholder="Search...">
@@ -50,7 +50,7 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">Overview<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Reports</a></li>
                 <li><a href="#">Analytics</a></li>
                 <li><a href="#">Export</a></li>
@@ -71,7 +71,7 @@
 
             <div class="row placeholders">
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Real Time Chart for Portfolio should be here.">
+                    <img data-src="holder.js/200x200/auto/sk" class="img-responsive" alt="Real Time Chart for Portfolio should be here.">
                     <h4>Label</h4>
                     <span class="text-muted">Something else</span>
                 </div>

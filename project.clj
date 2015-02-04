@@ -7,9 +7,12 @@
   "http://quantilla.net"
   :dependencies
   [
-    [http-kit "2.1.19"]
     [org.clojure/clojure "1.6.0"]
     [ring-server "0.3.1"]
+    [ring/ring-anti-forgery "1.0.0"]
+    [dhruv/ring-secure-headers "0.3.0"]
+    [crypto-random "1.2.0"]
+    [http-kit "2.1.19"]
     [mysql/mysql-connector-java "5.1.6"]
     [com.taoensso/timbre "3.3.1"]
     [korma "0.4.0"]
@@ -23,7 +26,10 @@
       com.sun.jdmk/jmxtools
       com.sun.jmx/jmxri]]
     [enlive "1.1.5"]
+    [com.draines/postal "1.11.3"]
+    [clj-pdf "2.0.0"]
     [com.taoensso/tower "3.0.2"]
+    [com.taoensso/carmine "2.9.0"]
     [markdown-clj "0.9.58" :exclusions [com.keminglabs/cljx]]
     [im.chit/cronj "1.4.3"]
     [noir-exception "0.2.3"]
